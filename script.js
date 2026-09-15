@@ -26,7 +26,8 @@ const datosPlanetas = {
         tamano: "12.104 km",
         composicion: "Roca y minerales",
         lunas: "0",
-        distancia: "108.2 millones km"
+        distancia: "108.2 millones km",
+        imagen: "Venus.png"
     },
 
     Marte: {
@@ -50,6 +51,7 @@ const datosPlanetas = {
         composicion: "Gas",
         lunas: "95",
         distancia: "778.5 millones km",
+        imagen: "Jupiter.png"
 
     },
 
@@ -58,21 +60,23 @@ const datosPlanetas = {
         composicion: "Gas",
         lunas: "146",
         distancia: "1.434 millones km",
-        imagen: "Saturno."
+        imagen: "Saturno.png"
     },
 
     Urano: {
         tamano: "50.724 km",
         composicion: "Hielo y gas",
         lunas: "28",
-        distancia: "2.871 millones km"
+        distancia: "2.871 millones km",
+        imagen: "Urano.png"
     },
 
     Neptuno: {
         tamano: "49.244 km",
         composicion: "Hielo y gas",
         lunas: "16",
-        distancia: "4.495 millones km"
+        distancia: "4.495 millones km",
+        imagen: "Neptuno.png"
     }
 
 };
