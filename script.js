@@ -45,18 +45,20 @@ const datosPlanetas = {
         imagen: "Tierra.png"
     },
 
-    Júpiter: {
+    Jupiter: {
         tamano: "139.820 km",
         composicion: "Gas",
         lunas: "95",
-        distancia: "778.5 millones km"
+        distancia: "778.5 millones km",
+
     },
 
     Saturno: {
         tamano: "116.460 km",
         composicion: "Gas",
         lunas: "146",
-        distancia: "1.434 millones km"
+        distancia: "1.434 millones km",
+        imagen: "Saturno."
     },
 
     Urano: {
