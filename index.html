@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTROGRAV</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <header>
+        <h1>ASTROGRAV</h1>
+        
+        <nav>
+            <a href="#">Simulador</a>
+            <a href="#">Explorador</a>
+            <a href="#">Planetas</a>
+        </nav>
+        
+    </header>
+
+    <main>
+        
+        <section class="titulo">
+            <h2>Simulador de peso</h2>
+            <p>Calcula tu peso en otros planetas</p>
+        </section>
+        
+        <section class="simulador">
+            
+            <section class="controles">
+
+                
+                <h2>Parámetros</h2>
+                <label>Selecciona un planeta</label>
+                
+                <select id="planeta">
+                    <option value="0.38">Mercurio</option>
+                    <option value="0.91">Venus</option>
+                    <option value="0.38">Marte</option>
+                    <option value="1.00">Tierra</option>
+                    <option value="2.53">Júpiter</option>
+                    <option value="1.06">Saturno</option>
+                    <option value="0.89">Urano</option>
+                    <option value="1.14">Neptuno</option>
+                </select>
+                
+                <label>Tu peso en kg</label>
+                <input type="number" id="peso" placeholder="Ej: 70">
+                <button id="calcular">Calcular peso</button>
+            </section>
+                
+            
+            
+            <section class="resultado">
+
+                <h2 id="nombre-planeta">Marte</h2>
+                
+                <div class="planeta">
+                    <img id="imagen-planeta" src="Marte.png" alt="Marte">
+                </div>
+                
+                <div class="peso">
+                    <h3>Tu peso sería:</h3>
+                </div>
+                <strong id="resultado">26.6 kg</strong>
+            </section>
+                
+        </section>
+        
+        
+        <section class="informacion">
+            
+            <div>
+                <h3>Tamaño</h3>
+                <p id="tamano">6.779 km</p>
+            </div>
+            
+            <div>
+                <h3>Composición</h3>
+                <p id="composicion">Roca y minerales</p>
+            </div>
+            
+            <div>
+                <h3>Lunas</h3>
+                <p id="lunas">2</p>
+            </div>
+            
+            <div>
+                <h3>Distancia al Sol</h3>
+                <p id="distancia">227.9 millones km</p>
+            </div>
+            
+        </section>
+        
+        
+    </main>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

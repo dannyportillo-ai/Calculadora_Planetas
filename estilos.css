@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #071426;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.titulo {
+    text-align: center;
+    padding: 50px;
+}
+
+.simulador {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.controles,
+.resultado {
+    width: 350px;
+    padding: 30px;
+    background: #0d2038;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#imagen-planeta {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    display: block;
+    margin: 20px auto;
+}
