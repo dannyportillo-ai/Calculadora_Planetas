@@ -32,22 +32,33 @@
             <section class="controles">
     
                 <h2>Parámetros</h2>
-                <label>Selecciona un planeta</label>
-                
-                <select id="planeta">
-                    <option value="0.38">Mercurio</option>
-                    <option value="0.91">Venus</option>
-                    <option value="0.38">Marte</option>
-                    <option value="1.00">Tierra</option>
-                    <option value="2.53">Jupiter</option>
-                    <option value="1.06">Saturno</option>
-                    <option value="0.89">Urano</option>
-                    <option value="1.14">Neptuno</option>
-                </select>
-                
-                <label>Tu peso en kg</label>
-                <input type="number" id="peso">
-                <button id="calcular">Calcular peso</button>
+
+                <form>
+
+                    <section class="campo">
+                        <label for="planeta">Selecciona un planeta</label>
+                        
+                        <select id="planeta">
+                            <option value="0.38">Mercurio</option>
+                            <option value="0.91">Venus</option>
+                            <option value="0.38">Marte</option>
+                            <option value="1.00">Tierra</option>
+                            <option value="2.53">Jupiter</option>
+                            <option value="1.06">Saturno</option>
+                            <option value="0.89">Urano</option>
+                            <option value="1.14">Neptuno</option>
+                        </select>
+                    </section>
+
+                    <div class="campo">
+                        <label for="peso">Tu peso en kg</label>
+                        <input type="number" id="peso">
+                    </div>
+
+                    <button id="calcular" type="button">Calcular peso</button>
+
+                </form>
+
             </section>
                 
             
