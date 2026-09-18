@@ -24,7 +24,7 @@
         
         <section class="titulo">
             <h2>CALCULADORA GRAVITACIONAL DEL SISTEMA SOLAR</h2>
-            <p>Calcula peso, masa y aceleraccion gravitacional real en cuerpos celestes del Sistema Solar</p>
+            <p>Calcula tu peso en diferentes cuerpos celestes del Sistema Solar.</p>
         </section>
         
         <section class="simulador">
@@ -39,21 +39,21 @@
                         <label for="planeta">Selecciona un planeta</label>
                         
                         <select id="planeta">
-                            <option value="0.38">Mercurio</option>
-                            <option value="0.91">Venus</option>
-                            <option value="0.38">Marte</option>
                             <option value="1.00">Tierra</option>
-                            <option value="2.53">Jupiter</option>
-                            <option value="1.06">Saturno</option>
-                            <option value="0.89">Urano</option>
-                            <option value="1.14">Neptuno</option>
+                            <option value="0.378">Mercurio</option>
+                            <option value="0.907">Venus</option>
+                            <option value="0.377">Marte</option>
+                            <option value="2.36">Jupiter</option>
+                            <option value="0.916">Saturno</option>
+                            <option value="0.889">Urano</option>
+                            <option value="1.12">Neptuno</option>
                         </select>
                     </section>
 
-                    <div class="campo">
+                    <section class="campo">
                         <label for="peso">Tu peso en kg</label>
                         <input type="number" id="peso">
-                    </div>
+                    </section>
 
                     <button id="calcular" type="button">Calcular peso</button>
 
@@ -61,30 +61,25 @@
 
             </section>
                 
-            
-            
             <section class="resultado">
 
-                <h2 id="nombre-planeta">Marte</h2>
+                <h2 id="nombre-planeta">Tierra</h2>
                 
-                <div class="planeta">
-                    <img id="imagen-planeta" src="Marte.png" alt="Marte">
-                </div>
-                
-                <div class="peso">
+                    <img id="imagen-planeta" src="Tierra.png" alt="Tierra">
+
                     <h3>Tu peso sería:</h3>
-                </div>
-                <strong id="resultado">26.6 kg</strong>
+
+                <strong id="resultado">kg</strong>
+
             </section>
                 
         </section>
-        
         
         <section class="informacion">
             
             <div>
                 <h3>Tamaño</h3>
-                <p id="tamano">6.779 km</p>
+                <p id="tamano">12.742 km</p>
             </div>
             
             <div>
@@ -94,17 +89,38 @@
             
             <div>
                 <h3>Lunas</h3>
-                <p id="lunas">2</p>
+                <p id="lunas">1</p>
             </div>
             
             <div>
                 <h3>Distancia al Sol</h3>
-                <p id="distancia">227.9 millones km</p>
+                <p id="distancia">149.6 millones km</p>
             </div>
             
         </section>
         
+        <section class="sobre">
+            <h2>Sobre ASTROGRAV</h2>
+            <p>        
+                ASTROGRAV utiliza los valores de gravedad de cada planeta
+                para calcular cómo cambiaría tu peso al estar en diferentes
+                lugares del Sistema Solar.
+            </p>
+
+        </section>
+
+        <section class="intoduccion">
+            <h2>Explora el sistema solar</h2>
+            <p>
+                Descubre cómo cambia tu peso según la gravedad de cada planeta.
+            </p>
+        </section>
         
+        <footer>
+            <p>ASTROGRAV | Proyecto académico</p>
+        </footer>
+
+
     </main>
     
     <script src="script.js"></script>
