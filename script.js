@@ -8,7 +8,7 @@ boton.addEventListener ("click", function() {
     let resultado = peso * gravedad;
 
     document.getElementById ("resultado").textContent =
-        "Tu peso sería " + resultado.toFixed (2) + " kg";
+        "Tu peso sería " + resultado.toFixed (2) + " kg ";
 
 });
 
@@ -89,7 +89,7 @@ selector.addEventListener("change", function() {
     let datos = datosPlanetas[nombre];
 
     document.getElementById("nombre-planeta").textContent = nombre;
-    document.getElementById("tamano").textContent = datos.tamano;
+    document.getElementById("tamaño").textContent = datos.tamano;
     document.getElementById("composicion").textContent = datos.composicion;
     document.getElementById("lunas").textContent = datos.lunas;
     document.getElementById("distancia").textContent = datos.distancia;

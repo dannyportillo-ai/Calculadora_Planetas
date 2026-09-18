@@ -23,6 +23,16 @@ nav a {
     padding: 50px;
 }
 
+.titulo h2{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.titulo h3{
+    margin: 0;
+    font-size: 16px;
+}
+
 .simulador {
     display: flex;
     gap: 25px;
@@ -86,4 +96,11 @@ nav a {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.sobre,
+.introduccion{
+    text-align: center;
+    margin: 40px auto;
+    padding: 30px;
 }
