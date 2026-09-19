@@ -10,6 +10,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
+    border-bottom: 1px solid #1e90ff;
 }
 
 nav a {
@@ -28,7 +29,7 @@ nav a {
     font-size: 30px;
 }
 
-.titulo h3{
+.titulo p{
     margin: 0;
     font-size: 16px;
 }
@@ -61,6 +62,7 @@ nav a {
     display: flex;
     justify-content: center;
     gap: 25px;
+    margin: 40px;
 }
 
 .informacion div {
@@ -68,6 +70,14 @@ nav a {
     padding: 20px;
     background: #0d2038;
     border-radius: 20px;
+}
+
+.informacion div h3 {
+    margin-bottom: 10px;
+}
+
+.informacion div p {
+    margin: 0;
 }
 
 .campo {
@@ -103,4 +113,76 @@ nav a {
     text-align: center;
     margin: 40px auto;
     padding: 30px;
+    max-width: 800px;
+}
+
+.sobre h2,
+.introduccion h2{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.sobre p,
+.introduccion p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.informacion div,
+.controles,
+.resultado {
+    transition: 0.3s;
+}
+
+.informacion div:hover,
+.controles:hover,
+.resultado:hover {
+    transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .titulo {
+        padding: 40px 20px;
+    }
+
+    .titulo h2 {
+        font-size: 25px;
+    }
+
+    .simulador {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .controles,
+    .resultado {
+        width: 90%;
+    }
+
+    .informacion {
+        flex-wrap: wrap;
+        margin: 30px 20px;
+    }
+
+    .informacion div {
+        width: 45%;
+    }
+
+    .introduccion,
+    .sobre {
+        margin: 30px 20px;
+        padding: 20px;
+    }
 }
