@@ -55,6 +55,7 @@ nav a {
     object-fit: contain;
     margin: 20px auto;
     display: block;
+    transition: 0.5 ease;
 }
 
 .informacion {
@@ -103,4 +104,16 @@ nav a {
     text-align: center;
     margin: 40px auto;
     padding: 30px;
+}
+
+.informacion div:hover,
+.controles:hover,
+.resultados:hover {
+    transition: 0.3s;
+}
+
+.informacion div:hover,
+.controles:hover,
+.resultados:hover {
+    transform: translateY(-3px);
 }
