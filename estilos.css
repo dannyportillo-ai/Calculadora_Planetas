@@ -117,11 +117,9 @@ nav a {
     max-width: 800px;
 }
 
-<<<<<<< HEAD
 .informacion div:hover,
 .controles:hover,
-.resultados:hover {
-=======
+.resultados:hover 
 .sobre h2,
 .introduccion h2{
     margin-bottom: 15px;
@@ -137,16 +135,11 @@ nav a {
 .informacion div,
 .controles,
 .resultado {
->>>>>>> 70e94dcfc204cf724e5c6f0bd7ad5af2058afd9e
     transition: 0.3s;
 }
 
 .informacion div:hover,
 .controles:hover,
-<<<<<<< HEAD
-.resultados:hover {
-    transform: translateY(-3px);
-=======
 .resultado:hover {
     transform: translateY(-3px);
 }
@@ -196,5 +189,4 @@ nav a {
         margin: 30px 20px;
         padding: 20px;
     }
->>>>>>> 70e94dcfc204cf724e5c6f0bd7ad5af2058afd
 }
