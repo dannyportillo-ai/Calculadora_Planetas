@@ -138,6 +138,11 @@ nav a {
     transition: 0.3s;
 }
 
+footer {
+    text-align: center;
+    margin: 20px 0;
+}
+
 
 @media (max-width: 768px) {
 
