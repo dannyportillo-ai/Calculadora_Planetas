@@ -138,11 +138,6 @@ nav a {
     transition: 0.3s;
 }
 
-.informacion div:hover,
-.controles:hover,
-.resultado:hover {
-    transform: translateY(-3px);
-}
 
 @media (max-width: 768px) {
 
