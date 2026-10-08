@@ -95,3 +95,35 @@ selector.addEventListener("change", function() {
     document.getElementById("distancia").textContent = datos.distancia;
     document.getElementById("imagen-planeta").src = datos.imagen;
 });
+
+
+const traducciones = {
+    "Simulador": "Simulator",
+    "Planetas": "Planets",
+    "Parámetros": "Parameters",
+    "Selecciona un planeta": "Select a planet",
+    "Tu peso en kg": "Your weight in kg",
+    "Calcular peso": "Calculate weight",
+    "Tamaño": "Size",
+    "Composición": "Composition",
+    "Lunas": "Moons",
+    "Distancia al Sol": "Distance from the Sun",
+    "Sobre ASTROGRAV": "About ASTROGRAV",
+    "Explora el sistema solar": "Explore the Solar System"
+};
+
+const idioma = document.getElementById("idioma");
+
+idioma.addEventListener("click", function() {
+
+    document.body.classList.toggle("ingles");
+
+    if (document.body.classList.contains("ingles")) {
+        // Cambiar textos a inglés
+        idioma.textContent = "Español";
+    } else {
+        // Cambiar textos a español
+        idioma.textContent = "English";
+    }
+
+});

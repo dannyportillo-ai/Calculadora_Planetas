@@ -134,13 +134,33 @@ nav a {
 
 .informacion div,
 .controles,
-.resultado {
-    transition: 0.3s;
+.resultados {
+    transition: 0.2s;
+}
+
+.informacion div:hover,
+.controles:hover,
+.resultados:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 4px 10px rgba(30, 144, 255, 0.15);
 }
 
 footer {
     text-align: center;
     margin: 20px 0;
+}
+
+#idioma {
+    padding: 10px 20px;
+    background: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#idioma:hover {
+    background: #00aaff;
 }
 
 
